@@ -8,12 +8,12 @@ interface StatsCardPropsType {
 function StatsCard({ count, title }: StatsCardPropsType) {
   return (
     <Card color="transparent" shadow={false} className="text-left">
-      <h1 color="white" className="mb-4 text-6xl">
+      <Typography variant="h1" color="white" className="mb-4 text-6xl">
         {count}
-      </h1>
-      <h5 color="white" className="mb-2">
+      </Typography>
+      <Typography variant="h5" color="white" className="mb-2">
         {title}
-      </h5>
+      </Typography>
     </Card>
   );
 }
