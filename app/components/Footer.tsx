@@ -8,8 +8,8 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
           <Typography className="!text-sm font-medium text-gray-500 lg:text-left text-center">
-            All rights reserved. Copyright &copy; {currentYear} Material
-            Tailwind.
+            All rights reserved. Copyright &copy; {currentYear} Newcomb Spring
+            Corp.
           </Typography>
           <div className="flex lg:ml-auto place-content-center gap-2">
             <a href="#buttons-with-link">
