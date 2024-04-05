@@ -7,11 +7,7 @@ import {
   Navbar,
   IconButton,
 } from "@material-tailwind/react";
-import {
-  CalculatorIcon,
-  EnvelopeIcon,
-  InformationCircleIcon,
-} from "@heroicons/react/24/outline";
+
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -40,8 +36,6 @@ function NavbarSection() {
               <Link href="/about">
                 <div className="flex gap-4">
                   <Typography
-                    as="a"
-                    href="#"
                     variant="paragraph"
                     color="gray"
                     className="flex items-center gap-2 font-medium text-gray-900"
@@ -53,8 +47,6 @@ function NavbarSection() {
               <Link href="/spring-calculator">
                 <div className="flex gap-4">
                   <Typography
-                    as="a"
-                    href="#"
                     variant="paragraph"
                     color="gray"
                     className="flex items-center gap-2 font-medium text-gray-900"
@@ -66,8 +58,6 @@ function NavbarSection() {
               <Link href="/contact">
                 <div className="flex gap-4">
                   <Typography
-                    as="a"
-                    href="#"
                     variant="paragraph"
                     color="gray"
                     className="flex items-center gap-2 font-medium text-gray-900"

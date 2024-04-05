@@ -1,11 +1,5 @@
 "use client";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
+import { Card, CardHeader, CardBody, Button } from "@material-tailwind/react";
 
 interface BlogPostCardPropsType {
   img: string;
@@ -22,15 +16,15 @@ function BlogPostCard({ img, tag, title, desc }: BlogPostCardPropsType) {
       </CardHeader>
       <CardBody>
         <div className="flex items-center gap-2">
-          <Typography
+          <div
             variant="small"
             color="blue"
             className="mb-2 font-normal !text-gray-500"
           >
             {tag}
-          </Typography>
+          </div>
         </div>
-        <Typography
+        <div
           as="a"
           href="#"
           variant="h5"
@@ -38,10 +32,8 @@ function BlogPostCard({ img, tag, title, desc }: BlogPostCardPropsType) {
           className="mb-2 normal-case"
         >
           {title}
-        </Typography>
-        <Typography className="mb-6 font-normal !text-gray-500">
-          {desc}
-        </Typography>
+        </div>
+        <div className="mb-6 font-normal !text-gray-500">{desc}</div>
         <Button variant="outlined">Learn More</Button>
       </CardBody>
     </Card>
@@ -97,29 +89,19 @@ const posts = [
     title: "Hooks & Paint Hooks",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
-  {
-    img: "https://www.newcombspring.com/img/products/hook/thumb-hook.webp",
-    tag: "tag 8",
-    title: "Hooks & Paint Hooks",
-    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
-  },
 ];
 
 export function Posts() {
   return (
     <section className="py-10 px-8">
       <div className="container mx-auto mb-24 text-center">
-        <Typography
-          variant="h2"
-          color="blue-gray"
-          className="mb-2 !text-3xl lg:!text-4xl"
-        >
+        <div color="blue-gray" className="mb-2 !text-3xl lg:!text-4xl">
           Our Services
-        </Typography>
-        <Typography variant="lead" className="mx-auto max-w-xl !text-gray-500">
+        </div>
+        <div className="mx-auto max-w-xl !text-gray-500">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tempore
           impedit laboriosam nisi fuga. Voluptate?
-        </Typography>
+        </div>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-24">
         {posts.map(({ img, tag, title, desc }) => (

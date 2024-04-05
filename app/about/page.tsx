@@ -1,7 +1,7 @@
 "use client";
 import { Typography, Button } from "@material-tailwind/react";
 
-export function ContentSection() {
+function ContentSection() {
   return (
     <section className="py-10 px-8 min-h-screen grid">
       <div className="grid max-w-7xl mx-auto my-auto items-center place-items-center lg:grid-cols-2 gap-10">

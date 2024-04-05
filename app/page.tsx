@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Button, Typography, Card } from "@material-tailwind/react";
+import { Button, Card } from "@material-tailwind/react";
 
 import { Features } from "./components/Features";
 import StatsSection from "./components/Stats";
@@ -19,18 +19,17 @@ export function HeroSection6() {
         <div className="container mx-auto lg:mt-0 ">
           <div className="grid grid-cols-12">
             <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 px-6 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
-              <Typography
-                variant="h1"
+              <div
                 color="blue-gray"
                 className="text-3xl !leading-snug lg:text-5xl"
               >
                 Newcomb Spring <br /> Choose the best
-              </Typography>
-              <Typography variant="lead" className="mb-10 mt-2 !text-gray-900">
+              </div>
+              <div className="mb-10 mt-2 !text-gray-900">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium eius asperiores quaerat in, vitae molestiae iusto
                 minus libero voluptas sapiente!
-              </Typography>
+              </div>
               <div className="mb-8 flex justify-center gap-4 lg:justify-start md:justify-start">
                 <Button className="lg:w-32 md:w-32 w-full" color="gray">
                   contact us
