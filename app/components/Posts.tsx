@@ -42,7 +42,7 @@ function BlogPostCard({ img, tag, title, desc }: BlogPostCardPropsType) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button variant="outlined">from /night</Button>
+        <Button variant="outlined">Learn More</Button>
       </CardBody>
     </Card>
   );
@@ -50,40 +50,58 @@ function BlogPostCard({ img, tag, title, desc }: BlogPostCardPropsType) {
 
 const posts = [
   {
-    img: "https://www.material-tailwind.com/image/blog-13.png",
-    tag: "Entire Apartment • 3 Guests • 2 Beds",
-    title: "Lovely and cozy apartment",
-    desc: "Siri's latest trick is offering a hands-free TV viewing experience, that will allow consumers to turn on or off their television, change inputs, fast forward.",
+    img: "https://www.stalderspring.com/assets/images/buckets/bucket-torsion.jpg",
+    tag: "Tag 1",
+    title: "Compression Springs",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
   {
-    img: "https://www.material-tailwind.com/image/blog-14.png",
-    tag: "Private Room • 1 Guests • 1 Sofa",
-    title: "Single room in the center of city",
-    desc: "As Uber works through a huge amount of internal management turmoil, the company is also consolidating more of its international business.",
+    img: "https://www.newcombspring.com/img/products/ext/thumb-extension.webp",
+    tag: "tag 2",
+    title: "Extension Springs",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
   {
-    img: "https://www.material-tailwind.com/image/blog-15.png",
-    tag: "Entire Apartment • 4 Guests • 2 Beds",
-    title: "Independent house bedroom",
-    desc: "Music is something that every person has his or her own specific opinion about. Different people have different taste, and various types of music.",
+    img: "https://www.newcombspring.com/img/products/tor/thumb-torsion.webp",
+    tag: "tag 3",
+    title: "Torsion Springs",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
   {
-    img: "https://www.material-tailwind.com/image/blog-16.jpeg",
-    tag: "Entire Apartment • 2 Guests • 1 Bed",
-    title: "Zen Gateway with pool and garden",
-    desc: "Fast forward, rewind and more, without having to first invoke a specific skill, or even press a button on their remote.",
+    img: "https://www.newcombspring.com/img/products/wb/thumb-wirebending.webp",
+    tag: "tag 4",
+    title: "Large Wire Bending",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
   {
-    img: "https://www.material-tailwind.com/image/blog-17.jpeg",
-    tag: "Entire Flat • 8 Guests • 3 Rooms",
-    title: "Cheapest hotels for a luxury vacation",
-    desc: "Today, the company announced it will be combining its rides-on-demand business and UberEATS.",
+    img: "https://www.newcombspring.com/img/products/flat/thumb-flatspring.webp",
+    tag: "tag 5",
+    title: "Flat Springs & Stampings",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
   {
-    img: "https://www.material-tailwind.com/image/blog-18.jpeg",
-    tag: "Entire Apartment • 4 Guests • 2 Beds",
-    title: "Cozy Double Room Near Station",
-    desc: "Different people have different taste, and various types of music have many ways of leaving an impact on someone.",
+    img: "https://www.newcombspring.com/img/products/batt/thumb-battery.webp",
+    tag: "tag 6",
+    title: "Battery Contacts",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
+  },
+  {
+    img: "https://www.newcombspring.com/img/products/ring/thumb-ring.webp",
+    tag: "tag 7",
+    title: "Shaped Rings",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
+  },
+  {
+    img: "https://www.newcombspring.com/img/products/hook/thumb-hook.webp",
+    tag: "tag 8",
+    title: "Hooks & Paint Hooks",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
+  },
+  {
+    img: "https://www.newcombspring.com/img/products/hook/thumb-hook.webp",
+    tag: "tag 8",
+    title: "Hooks & Paint Hooks",
+    desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Nullam sit amet nisi nec nunc.",
   },
 ];
 
@@ -96,11 +114,11 @@ export function Posts() {
           color="blue-gray"
           className="mb-2 !text-3xl lg:!text-4xl"
         >
-          Book your next trip
+          Our Services
         </Typography>
         <Typography variant="lead" className="mx-auto max-w-xl !text-gray-500">
-          An arrangement you make to have a hotel room, tickets, etc. at a
-          particular time in the future.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut tempore
+          impedit laboriosam nisi fuga. Voluptate?
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-24">

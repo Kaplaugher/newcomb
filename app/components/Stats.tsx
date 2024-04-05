@@ -20,16 +20,16 @@ function StatsCard({ count, title }: StatsCardPropsType) {
 
 const stats = [
   {
-    count: "1,200+",
-    title: "Projects",
+    count: "10M+",
+    title: "Orders Completed",
   },
   {
-    count: "1,000+",
-    title: "Components",
+    count: "3B+",
+    title: "Springs Manufactured",
   },
   {
-    count: "500+",
-    title: "Sections",
+    count: "5000+",
+    title: "Satisfied Clients",
   },
   {
     count: "24/7",
@@ -49,15 +49,15 @@ export function StatsSection() {
           color="white"
           className="mb-4 text-3xl lg:text-5xl"
         >
-          Your life will be much easier
+          Join the best
         </Typography>
         <Typography
           variant="lead"
           color="white"
           className="mx-auto mb-20 max-w-2xl opacity-70"
         >
-          We&apos;re constantly trying to express ourselves and actualize our
-          dreams. If you have the opportunity to play
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+          nostrum, eaque hic provident quibusdam consequuntur?
         </Typography>
         <div className="grid gap-y-16 gap-x-8 md:grid-cols-2 lg:grid-cols-4 place-items-center">
           {stats.map((props, key) => (
