@@ -6,7 +6,7 @@ import { Features } from "./components/Features";
 import StatsSection from "./components/Stats";
 import Posts from "./components/Posts";
 
-export function HeroSection6() {
+export default function HeroSection() {
   return (
     <div className="flex flex-col">
       {/** Hero Section */}
@@ -74,5 +74,3 @@ export function HeroSection6() {
     </div>
   );
 }
-
-export default HeroSection6;
