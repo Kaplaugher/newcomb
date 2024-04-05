@@ -42,7 +42,7 @@ const features = [
   },
 ];
 
-export function FeatureSection() {
+export default function FeatureSection() {
   return (
     <section className="lg:py-28 py-10 px-8">
       <div className="container mx-auto grid place-items-center gap-y-12 grid-cols-1 lg:grid-cols-3">
@@ -75,4 +75,3 @@ export function FeatureSection() {
     </section>
   );
 }
-export default FeatureSection;

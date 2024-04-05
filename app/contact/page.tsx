@@ -8,7 +8,7 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 
-export function ContactPage() {
+export default function ContactPage() {
   return (
     <section className="min-h-[100vh] p-4">
       <img
@@ -108,5 +108,3 @@ export function ContactPage() {
     </section>
   );
 }
-
-export default ContactPage;
